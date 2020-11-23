@@ -1,3 +1,6 @@
+#!/bin/bash
+# verfiy 
+
 # make sure to use your local docker destop
 kubectl config use-context docker-desktop
 

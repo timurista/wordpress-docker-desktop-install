@@ -1,5 +1,5 @@
 # Installing Wordpress on Docker Desktop
-A repository for spinning up wordpress locally using docker-desktop for plugin development
+A repository for spinning up wordpress locally using docker-desktop for plugin and theme development
 
 ## Why docker-desktop?
 On Mac or Linux you can install [docker-desktop for free](https://www.docker.com/products/docker-desktop). From there we will install a temporary wordpress server for local testing using the [wordpress helm chart]() w.
@@ -10,10 +10,15 @@ With this approach of kubernetes, docker-desktop and helm chart you retain contr
 
 # The installation steps
 
-- open Docker Desktop and ensure kubernetes is running
-- select the docker-desktop enviornment
+- [install docker desktop](https://www.docker.com/products/docker-desktop)
+- open Docker Desktop and ensure [kubernetes is running](https://birthday.play-with-docker.com/kubernetes-docker-desktop/)
+- select the `docker-desktop` enviornment from the kubernetes tab
 - Run this to verify you have the correct kubernetes context selected for local testing.
 ```shell
+# verify these commands return version numbers
+$ kubectl --version
+$ docker --version
+
 $ kubectl config current-context             [7:03:13]
 docker-desktop
 ```
@@ -40,7 +45,14 @@ Password: XXXXXX
 ```
 
 
-# One click-install
+# Install
+Note you might need to download and provider permissions first for these scripts
+
 ```sh
 curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/install-wordpress.sh | sh -
+```
+
+## Uninstall
+```sh
+curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/uninstall-wordpress.sh | sh -
 ```

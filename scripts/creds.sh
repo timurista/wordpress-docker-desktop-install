@@ -1,3 +1,4 @@
+#!/bin/bash
 HTTP_PORT=8007
 export SERVICE_IP=$(kubectl get svc --namespace default my-wordpress --template "{{ range (index .status.loadBalancer.ingress 0) }}{{.}}{{ end }}")
 
