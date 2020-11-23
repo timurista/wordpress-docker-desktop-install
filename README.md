@@ -56,3 +56,8 @@ curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-in
 ```sh
 curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/uninstall-wordpress.sh | sh -
 ```
+
+# Like Script?
+If this project help you reduce time to develop, you can give me a cup of coffee :) ☕
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=A338GSX8EWG8G)
