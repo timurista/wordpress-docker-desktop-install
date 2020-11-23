@@ -42,5 +42,5 @@ Password: XXXXXX
 
 # One click-install
 ```sh
-curl this-raw-url | - sh
+curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/install-wordpress.sh | sh -
 ```
