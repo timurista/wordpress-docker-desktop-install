@@ -45,17 +45,18 @@ Password: XXXXXX
 ```
 
 
-# Install
+## Install
 Note you might need to download and provider permissions first for these scripts
 
 ```sh
 curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/install-wordpress.sh | sh -
 ```
 
-# Uninstall
+## Uninstall
 ```sh
 curl -sS https://raw.githubusercontent.com/timurista/wordpress-docker-desktop-install/main/scripts/uninstall-wordpress.sh | sh -
 ```
+
 
 ## Was this useful?
 If this project help you reduce time to develop, you can give me a cup of coffee :) ☕
